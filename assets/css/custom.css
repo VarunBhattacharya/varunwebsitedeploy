@@ -1,0 +1,230 @@
+@font-face {
+	font-family: font1;
+	src: url(../fonts/RobotoMono-VariableFont.ttf);
+
+}
+
+body {
+	cursor: url(../../images/cursor/customCursor.png), auto;
+}
+
+#pointerCursor {
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+/*INTRO SECTION*/
+.profileImg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+}
+
+/*INTRO SECTION END*/
+
+
+
+/*EDUCATION SECTION*/
+#eduBarAllign {
+	display: inline-block;
+	margin-right: 40px;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#eduBarAllign:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+#certBarAllign {
+	display: inline-block;
+	margin-left: 140px;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#certBarAllign:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+#certiDiv {
+	display: inline-block;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#certiLink {
+	display: inline-block;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#certiLink:hover {
+	transform: scale(1.2);
+}
+
+/*EDUCATION SECTION END*/
+
+
+
+/*EXPERIENCE SECTION*/
+#expBarAllign {
+	display: inline-block;
+	margin-right: 18px;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#expBarAllign:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+#internLinkAllign {
+	display: inline-block;
+	text-align: center;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#internLinkAllign:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+#experienceTextAllign1 {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: -30px;
+}
+
+#experienceTextAllign2 {
+	display: inline-block;
+	margin-left: -10px;
+	margin-top: 5px;
+}
+
+/*EXPERIENCE SECTION END*/
+
+
+
+/*PROJECTS SECTION START*/
+#projectBarAllign {
+	display: inline-block;
+	margin-right: 18px;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#projectBarAllign:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+#skillIconArrange {
+	display: inline-block;
+	margin-right: 5px;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#skillIconArrange:hover {
+	transform: scale(1.2);
+}
+
+#skillIconSection1 {
+	display: inline-block;
+	margin-left: 20px;
+	word-spacing: 25px;
+	margin-top: -30px;
+}
+
+#skillIconSection2 {
+	display: inline-block;
+	margin-left: -10px;
+	word-spacing: 25px;
+	margin-top: 5px;
+}
+
+#projectDivLink {
+	display: inline-block;
+	text-align: center;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#projectLink {
+	display: inline-block;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#projectLink:hover {
+	transform: scale(1.2);
+}
+
+#projectTextAllign1 {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: -5px;
+}
+
+/*PROJECTS SECTION END*/
+
+
+/*CONTACT SECTION START*/
+#contactDivAlign1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contactDivAlign2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+#contactDivAlign3 {
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: -10px;
+	width: 40%;
+}
+
+#contactIconArrange {
+	display: inline-block;
+	margin-left: 16%;
+	margin-top: -20px;
+}
+
+#contactButtons {
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#contactButtons:hover {
+	transform: scale(1.2);
+}
+
+/*CONTACT SECTION END*/
+
+
+
+
+
+/*FOOTER SECTION START*/
+#footer .social-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#footer .social-links a {
+	margin: 0 0.5rem;
+	background: rgba(255, 255, 255, 0.116);
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+	display: flex;
+}
+
+#footer .social-links a:hover {
+	background: #0e0b1477;
+	transform: scale(1.2);
+}
+
+/*FOOTER SECTION END*/
