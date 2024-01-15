@@ -7,6 +7,17 @@ window.onload = function () {
 /*END LOADING SCREEN*/
 
 
+/*SPOTLIGHT SECTION*/
+function resumeButton() {
+    window.open("https://drive.google.com/file/d/1QRyx16MY2teGRbJ32zOl1UlTI007W-yk/view?usp=drive_link", "_blank");
+}
+
+function cvButton() {
+    window.open("https://drive.google.com/file/d/1CBbUezjLSxMbx8rGt_k1TX4oVy_nO2dW/view?usp=drive_link", "_blank");
+
+}
+/*SPOTLIGHT SECTION END*/
+
 
 /*EDUCATION SECTION*/
 function academicShow() {
@@ -130,12 +141,12 @@ function internshipShow() {
     document.getElementById("experienceSection").innerHTML =
         `
     <ul>
-        &#10149; <font face = "font1" size = 5px><b>
+        &#10149; <font face = "font1" size = 4px><b>
         <div id = "internLinkAllign" onclick = "teConnectivityWebsite()">TE Connectivity</div>
         </b> &#8680; Product Engineer Intern</font>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        &#10551; <font size = 4px>Bengaluru, Karnataka, India &#8680; November 2022 - August 2023</font>
+        &#10551; <font size = 3px>Bengaluru, Karnataka, India &#8680; November 2022 - August 2023</font>
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div id = "experienceTextAllign1"><font size = 3px>
             &#10174; Worked on signal optimizing algorithms using both Hw/Sw technologies to transmit correct signals efficiently. 
@@ -153,12 +164,12 @@ function internshipShow() {
     </ul>
 
     <ul>
-        &#10149; <font face = "font1" size = 5px><b>
+        &#10149; <font face = "font1" size = 4px><b>
         <div id = "internLinkAllign" onclick = "samsungWebsite()">Samsung R&D Institute</div>
         </b> &#8680; Research Intern</font>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        &#10551; <font size = 4px>Bengaluru, Karnataka, India &#8680; December 2022 - July 2023</font>
+        &#10551; <font size = 3px>Bengaluru, Karnataka, India &#8680; December 2022 - July 2023</font>
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div id = "experienceTextAllign2"><font size = 3px>
             &#10174; Worked on the worklet-id ATL22VIT - Oriented Hand Detection, Advanced research problem. 
@@ -172,12 +183,12 @@ function internshipShow() {
     </ul>
 
     <ul>
-        &#10149; <font face = "font1" size = 5px><b>
+        &#10149; <font face = "font1" size = 4px><b>
         <div id = "internLinkAllign" onclick = "codespeedyWebsite()">CodeSpeedy Technologies</div>
         </b> &#8680; Technical Blog Writer</font>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        &#10551; <font size = 4px>Kolkata, West Bengal, India &#8680; May 2022 - December 2022</font>
+        &#10551; <font size = 3px>Kolkata, West Bengal, India &#8680; May 2022 - December 2022</font>
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div id = "experienceTextAllign2"><font size = 3px>
             &#10174; Wrote several blogs on core Python and its modules. 
@@ -187,12 +198,12 @@ function internshipShow() {
     </ul>
 
     <ul>
-        &#10149; <font face = "font1" size = 5px><b>
+        &#10149; <font face = "font1" size = 4px><b>
         <div id = "internLinkAllign" onclick = "ltiWebsite()">Larsen and Toubro Infotech</div>
         </b> &#8680; ML Engineer Intern</font>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        &#10551; <font size = 4px>Hyderabad, Telangana, India &#8680; May 2022 - August 2022</font>
+        &#10551; <font size = 3px>Hyderabad, Telangana, India &#8680; May 2022 - August 2022</font>
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div id = "experienceTextAllign1"><font size = 3px>
             &#10174; Worked on custom computer vision model to detect personal protected equipments using transfer learning. 
@@ -209,12 +220,12 @@ function professionalExpShow() {
     document.getElementById("experienceSection").innerHTML =
         `
     <ul>
-        &#10149; <font face = "font1" size = 5px><b>
+        &#10149; <font face = "font1" size = 4px><b>
         <div id = "internLinkAllign" onclick = "oracleWebsite()">Oracle</div>
         </b> &#8680; Application Developer Intern</font>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        &#10551; <font size = 4px>Bengaluru, Karnataka, India &#8680; January 2024 - Present</font>
+        &#10551; <font size = 3px>Bengaluru, Karnataka, India &#8680; January 2024 - Present</font>
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div id = "experienceTextAllign2"><font size = 3px>
             <!-- &#10174; Wrote several blogs on core Python and its modules.
@@ -228,7 +239,7 @@ function clubChapShow() {
     document.getElementById("experienceSection").innerHTML =
         `
     <ul>
-        &#10149; <font face = "font1" size = 5px>
+        &#10149; <font face = "font1" size = 4px>
         <b>
         <div id = "internLinkAllign" onclick = "isaWebsite()">International Society of Automation (ISA) VIT</div>
         </b> &#8680; Machine Learning Lead</font>
@@ -256,7 +267,7 @@ function achievementsShow() {
     document.getElementById("experienceSection").innerHTML =
         `
     <ul>
-        <font face = "font1" size = 5px>
+        <font face = "font1" size = 4px>
             &#10149; <b><div id = "internLinkAllign" onclick = "ismsWebsite()">Information Systems and Management Science</div></b>
             <br> &nbsp;&nbsp;&nbsp;
             &#10551; <font size = 4px>Best Research Paper Award on 6th International Conference on Information Systems and Management Science 2023 (Springer) - ISMS2023</font>
@@ -264,26 +275,26 @@ function achievementsShow() {
     </ul>
 
     <ul>
-        <font face = "font1" size = 5px>
+        <font face = "font1" size = 4px>
             &#10149; <b><div id = "internLinkAllign" onclick = "volkswagenWebsite()">Volkswagen Group Technology Solutions India</div></b>
             <br> &nbsp;&nbsp;&nbsp;
-            &#10551; <font size = 4px>Semi-Finalist in i.mobilothon 3.0 2023</font>
+            &#10551; <font size = 3px>Semi-Finalist in i.mobilothon 3.0 2023</font>
         </font>
     </ul>    
 
     <ul>
-        <font face = "font1" size = 5px>
+        <font face = "font1" size = 4px>
             &#10149; <b><div id = "internLinkAllign" onclick = "teConnectivityWebsite()">TE Connectivity</div></b>
             <br> &nbsp;&nbsp;&nbsp;
-            &#10551; <font size = 4px>AI in Signal Integrity Winner 2023</font>
+            &#10551; <font size = 3px>AI in Signal Integrity Winner 2023</font>
         </font>
     </ul>
 
     <ul>
-        <font face = "font1" size = 5px>
+        <font face = "font1" size = 4px>
             &#10149; <b><div id = "internLinkAllign" onclick = "jpmcWebsite()">JP Morgan Chase and Co.</div></b>
             <br> &nbsp;&nbsp;&nbsp;
-            &#10551; <font size = 4px>Code for Good Hackathon 2023 Finalist</font>
+            &#10551; <font size = 3px>Code for Good Hackathon 2023 Finalist</font>
         </font>
     </ul>
     `;

@@ -12,6 +12,15 @@ body {
 	cursor: url(../../images/cursor/customCursorPointer.png), auto;
 }
 
+#mainName {
+	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+}
+
+#mainName:hover {
+	color: rgb(107,114,133);
+	transform: scale(1.01);
+}
+
 /*INTRO SECTION*/
 .profileImg {
 	display: block;
@@ -28,21 +37,39 @@ body {
 /*EDUCATION SECTION*/
 #eduBarAllign {
 	display: inline-block;
+	font-size: 18px;
 	margin-right: 40px;
 	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #6b728536,
+	0 0 20px #54627c3b,
+	0 0 30px #5b6c823b,
+	0 0 40px #38476031,
+	0 0 55px #2e384e38,
+	0 0 70px #2d3c5c36;
 }
 
 #eduBarAllign:hover {
+	transform: scale(1.1);
 	background-color: rgba(255, 255, 255, 0.075);
 }
 
 #certBarAllign {
 	display: inline-block;
-	margin-left: 140px;
+	font-size: 18px;
+	margin-left: 50px;
 	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #6b728536,
+	0 0 20px #54627c3b,
+	0 0 30px #5b6c823b,
+	0 0 40px #38476031,
+	0 0 55px #2e384e38,
+	0 0 70px #2d3c5c36;
 }
 
 #certBarAllign:hover {
+	transform: scale(1.1);
 	background-color: rgba(255, 255, 255, 0.075);
 }
 
@@ -67,17 +94,26 @@ body {
 /*EXPERIENCE SECTION*/
 #expBarAllign {
 	display: inline-block;
+	font-size: 18px;
 	margin-right: 18px;
 	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #6b728536,
+	0 0 20px #54627c3b,
+	0 0 30px #5b6c823b,
+	0 0 40px #38476031,
+	0 0 55px #2e384e38,
+	0 0 70px #2d3c5c36;
 }
 
 #expBarAllign:hover {
+	transform: scale(1.1);
 	background-color: rgba(255, 255, 255, 0.075);
 }
 
 #internLinkAllign {
 	display: inline-block;
-	text-align: center;
+	/* text-align: center; */
 	cursor: url(../../images/cursor/customCursorPointer.png), auto;
 }
 
@@ -104,11 +140,20 @@ body {
 /*PROJECTS SECTION START*/
 #projectBarAllign {
 	display: inline-block;
+	font-size: 18px;
 	margin-right: 18px;
 	cursor: url(../../images/cursor/customCursorPointer.png), auto;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #6b728536,
+	0 0 20px #54627c3b,
+	0 0 30px #5b6c823b,
+	0 0 40px #38476031,
+	0 0 55px #2e384e38,
+	0 0 70px #2d3c5c36;
 }
 
 #projectBarAllign:hover {
+	transform: scale(1.1);
 	background-color: rgba(255, 255, 255, 0.075);
 }
 

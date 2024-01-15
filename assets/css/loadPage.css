@@ -1,3 +1,7 @@
+body {
+	cursor: url(../../images/cursor/customCursor.png), auto;
+}
+
 div {
   width: 12px;
   height: 12px;
