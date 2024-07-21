@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Varun Bhattacharya</title>
+		<title onclick="playmusic()">Varun Bhattacharya</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,6 +17,21 @@
 			<link rel="stylesheet" href="assets/css/noscript.css" />
 		</noscript>
 	</head>
+
+
+	<script>
+		// play music when the "playmusic" id is encountered
+		let checkAudio = 0;
+		function playmusic() {
+		  if (checkAudio == 0) {
+			var music = new Audio("assets/bgMusic/etudeOp25No1_Chopin.mp3");
+			music.play();
+			music.autoplay = true;
+			music.loop = true;
+			checkAudio = 1;
+		  }
+		}
+	  </script>
 
 
 	<body class="is-preload" id="bodyCursor">
@@ -35,11 +50,11 @@
 				</div>
 				<nav>
 					<ul>
-						<li><a href="#projects" id="pointerCursor">Competencies</a></li>
-						<li><a href="#education" id="pointerCursor">Scholastics</a></li>
-						<li><a href="#about" id="pointerCursor">Spotlight</a></li>
-						<li><a href="#work" id="pointerCursor">Workplaces</a></li>
-						<li><a href="#contact" id="pointerCursor">Connectivity</a></li>
+						<li><a href="#projects" id="pointerCursor" onclick="playmusic()">Competencies</a></li>
+						<li><a href="#education" id="pointerCursor" onclick="playmusic()">Scholastics</a></li>
+						<li><a href="#about" id="pointerCursor" onclick="playmusic()">Spotlight</a></li>
+						<li><a href="#work" id="pointerCursor" onclick="playmusic()">Workplaces</a></li>
+						<li><a href="#contact" id="pointerCursor" onclick="playmusic()">Connectivity</a></li>
 					</ul>
 				</nav>
 
@@ -138,6 +153,9 @@
 							<li><a href="mailto:varunb.working@gmail.com?subject=Mail%20from%20Varun%20Bhattacharya%20Portfolio%20Website"
 									class="icon fa-envelope" target="_blank" id="contactButtons"><span
 										class="label">GMail</span></a></li>
+							
+							<li><a href="https://orcid.org/0009-0005-8921-4447" class="icon fa-id-badge"
+									target="_blank" id="contactButtons"><span class="label">ORC-ID</span></a></li>
 
 							<li><a href="https://www.instagram.com/themystiquesleepypioneer/" class="icon fa-instagram"
 									target="_blank" id="contactButtons"><span class="label">Instagram</span></a></li>

@@ -222,14 +222,44 @@ function professionalExpShow() {
     <ul>
         &#10149; <font face = "font1" size = 4px><b>
         <div id = "internLinkAllign" onclick = "oracleWebsite()">Oracle</div>
+        </b> &#8680; Associate Software Developer</font>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &#10551; <font size = 3px>Bengaluru, Karnataka, India &#8680; 30 July 2024 - Present</font>
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id = "experienceTextAllign2"><font size = 3px>
+            &#10174; Working on CNDRA.
+            <br>
+            &#10174; Creating new UI screens for the product as per the UX design team requirements.
+            <br>
+            <u>Skills</u>: Python, Java, BDD, Jenkins, Docker, Helm, Kubernetes, ReactJS, RAPID, Openstack
+        </div></font>
+    </ul> 
+
+    <ul>
+        &#10149; <font face = "font1" size = 4px><b>
+        <div id = "internLinkAllign" onclick = "oracleWebsite()">Oracle</div>
         </b> &#8680; Application Developer Intern</font>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        &#10551; <font size = 3px>Bengaluru, Karnataka, India &#8680; January 2024 - Present</font>
+        &#10551; <font size = 3px>Bengaluru, Karnataka, India &#8680; 17 January 2024 - 12 July 2024</font>
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div id = "experienceTextAllign2"><font size = 3px>
-            <!-- &#10174; Wrote several blogs on core Python and its modules.
-            <br> -->
+            &#10174; Worked on Cloud Native Diameter Routing Agent (CNDRA) product.
+            <br>
+            &#10174; Developed the overall testing suite for the product using BDD and python scripts.
+            <br>
+            &#10174; Introduced a new alternative tool for Seagull for signalling cases and utilized it for the product.
+            <br>
+            &#10174; Worked on the automation of the product using Jenkins and Docker.
+            <br>
+            &#10174; Worked on the deployment of the product in the cloud using Kubernetes.
+            <br>
+            &#10174; Developed few UI screens for the product using RAPID framework based on ReactJS.
+            <br>
+            &#10174; Created new VM's with the support of SCTP signalling cases.
+            <br>
+            <u>Skills</u>: Python, Java, BDD, Jenkins, Docker, Helm, Kubernetes, ReactJS, RAPID, Openstack
         </div></font>
     </ul> 
     `;
@@ -380,6 +410,30 @@ function researchShow() {
             <br>
             &#10174; <u>Skills</u>: Python, Machine Learning, Deep Learning, Transfer Learning, OpenCV, GluonCV, Edge computing
         </div></font>
+
+        <br><br>
+        <font size = 5px>
+            &#10149; <b>Enhancing Security with Microcontroller-Based Face Detection in Sensitive Environments</b> &nbsp;
+            <div id = "projectDivLink" onclick = "microcontrollerPaperRelease()"><i id = "projectLink" class = "fa" style = "font-size: 16px;">&#xf08e;</i></div>
+        </font>
+        <br>
+        <div id = "projectTextAllign1"><font size = 3px>
+            &#10551; <font size = 4px>This research describes the design and development of an Arduino-powered face identification and tracking robot that is lightweight, affordable, and highly effective.</font>
+            <br>
+            &#10174; <u>Skills</u>: Python, C++, Deep Learning, Image Processing, OpenCV, GluonCV, Edge computing, Android, Kotlin, Bluetooth Modules
+        </div></font>
+
+        <br><br>
+        <font size = 5px>
+            &#10149; <b>NeuraPose: Effective Human Pose Detection using Transfer Learning</b> &nbsp;
+            <div id = "projectDivLink" onclick = "icdsaWebsite()"><i id = "projectLink" class = "fa" style = "font-size: 16px;">&#xf08e;</i></div>
+        </font>
+        <br>
+        <div id = "projectTextAllign1"><font size = 3px>
+            &#10551; <font size = 4px>The study uses the advanced YOLOv8 model to accurately detect and analyze body posture, surpassing previous models and focusing on key body points to improve musculoskeletal health through early diagnosis and personalized treatment recommendations.</font>
+            <br>
+            &#10174; <u>Skills</u>: Python, Deep Learning, Image Processing, OpenCV, GluonCV, Edge computing
+        </div></font>
     </ul>
     `;
 }
@@ -425,6 +479,8 @@ function skillsShow() {
             <div id = "skillIconArrange" onclick = "javafxWebsite()"><img src = "images/skillIcons/javafxIcon.png"></div>
             <div id = "skillIconArrange" onclick = "nodejsWebsite()"><img src = "images/skillIcons/nodejsIcon.png"></div>
             <div id = "skillIconArrange" onclick = "angularjsWebsite()"><img src = "images/skillIcons/angularjsIcon.png"></div>
+            <div id = "skillIconArrange" onclick = "reactjsWebsite()"><img src = "images/skillIcons/reactIcon.png"></div>
+            <div id = "skillIconArrange" onclick = "k8Website()"><img src = "images/skillIcons/k8Icon.png"></div>
         </div>
     </ul>
 
@@ -438,6 +494,21 @@ function skillsShow() {
             <div id = "skillIconArrange" onclick = "ociWebsite()"><img src = "images/skillIcons/oracleIcon.png"></div>
             <div id = "skillIconArrange" onclick = "gcpWebsite()"><img src = "images/skillIcons/gcpIcon.png"></div>
             <div id = "skillIconArrange" onclick = "awsWebsite()"><img src = "images/skillIcons/awsIcon.png"></div>
+            <div id = "skillIconArrange" onclick = "openstackWebsite()"><img src = "images/skillIcons/openstackIcon.png"></div>
+        </div>
+    </ul>
+
+    <ul>
+        <font size = 5px>
+            &#10149; <b>Operating Systems</b>
+        </font>
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id = "skillIconSection2">
+            <div id = "skillIconArrange" onclick = "windowsWebsite()"><img src = "images/skillIcons/winIcon.png"></div>
+            <div id = "skillIconArrange" onclick = "macosWebsite()"><img src = "images/skillIcons/macIcon.png"></div>
+            <div id = "skillIconArrange" onclick = "ubuntuWebsite()"><img src = "images/skillIcons/ubuntuIcon.png"></div>
+            <div id = "skillIconArrange" onclick = "kalilinuxWebsite()"><img src = "images/skillIcons/kaliIcon.png"></div>
+            <div id = "skillIconArrange" onclick = "oraclelinuxWebsite()"><img src = "images/skillIcons/oracleLinuxIcon.png"></div>
         </div>
     </ul>
     `;
@@ -535,6 +606,14 @@ function volkswagenWebsite() {
 function ismsWebsite() {
     window.open("https://isms2023.opju.ac.in/", "_blank");
 }
+
+function microcontrollerPaperRelease() {
+    window.open("https://ieeexplore.ieee.org/abstract/document/10493589", "_blank")
+}
+
+function icdsaWebsite() {
+    window.open("https://scrs.in/conference/icdsa2024", "_blank");
+}
 /*END COMPANY WEBSITE CLICK*/
 
 
@@ -629,6 +708,14 @@ function angularjsWebsite() {
     window.open("https://angularjs.org/", "_blank");
 }
 
+function reactjsWebsite() {
+    window.open("https://reactjs.org/", "_blank");
+}
+
+function k8Website() {
+    window.open("https://kubernetes.io/", "_blank");
+}
+
 function azureWebsite() {
     window.open("https://azure.microsoft.com/en-in", "_blank");
 }
@@ -643,6 +730,30 @@ function gcpWebsite() {
 
 function awsWebsite() {
     window.open("https://aws.amazon.com/", "_blank");
+}
+
+function openstackWebsite() {
+    window.open("https://www.openstack.org/", "_blank");
+}
+
+function windowsWebsite() {
+    window.open("https://www.microsoft.com/en-in/windows", "_blank");
+}
+
+function macosWebsite() {
+    window.open("https://www.apple.com/in/macos/", "_blank");
+}
+
+function ubuntuWebsite() {
+    window.open("https://ubuntu.com/", "_blank");
+}
+
+function kalilinuxWebsite() {
+    window.open("https://www.kali.org/", "_blank");
+}
+
+function oraclelinuxWebsite() {
+    window.open("https://docs.oracle.com/en/operating-systems/oracle-linux/", "_blank");
 }
 /*END SKILL WEBSITE CLICK*/
 
